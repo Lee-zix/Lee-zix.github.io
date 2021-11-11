@@ -5,12 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
+# 2021
 
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+- Long Bai, Saiping Guan, Jiafeng Guo, Zixuan Li, Xiaolong Jin, Xueqi Cheng, *Integrating Deep Event-Level and Script-Level Information for Script Event Prediction* [[PDF]](
+https://aclanthology.org/2021.emnlp-main.777.pdf)[[Code](https://github.com/waltbai/MCPredictor)]
