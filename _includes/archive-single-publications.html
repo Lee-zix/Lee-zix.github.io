@@ -27,11 +27,9 @@
     {% endif %}
 
     <h2 class="archive__item-title" itemprop="headline">
-      {% if post.authors %}
-        {{ authors }},
-      {% endif %}
+      {{ post.authors }},
       {{ title }},
-      {{ collection }}
+      {{ post.collection }}
     </h2>
     
     {% if post.read_time %}
