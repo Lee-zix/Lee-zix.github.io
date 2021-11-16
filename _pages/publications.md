@@ -11,18 +11,12 @@ author_profile: true
 
 {% include base_path %}
 {% capture written_year %}'None'{% endcapture %}
-<<<<<<< HEAD
-{% for article in site.publications %}
-  {% capture year %}{{ article.date | date: '%Y' }}{% endcapture %}
-  <!-- {% if year != written_year %}
-=======
 {% for post in site.publications %}
   {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
   {% if year != written_year %}
->>>>>>> cc3ef710bbc7bfc84bd9c6757e0a895d1cabc3f0
     <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
     {% capture written_year %}{{ year }}{% endcapture %}
-  {% endif %} -->
+  {% endif %}
   {% include archive-single.html %}
 {% endfor %}
 
