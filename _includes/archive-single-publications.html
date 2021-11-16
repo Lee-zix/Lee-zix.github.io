@@ -26,18 +26,25 @@
       </div>
     {% endif %}
 
-    <h2 class="archive__item-title" itemprop="headline">
+    <!-- <h2 class="archive__item-title" itemprop="headline">
+      
+    </h2> -->
+    <p>
       {{ post.authors }},
       {{ title }},
-      {{ post.collection }}
-    </h2>
-    
+      {{ post.collection }} .
+      {% if post.paperurl %}
+        [<a href=" {{ post.paperurl }} ">PDF</a>]
+      {% endif %}
+      {% if post.code %}
+        [<a href=" {{ post.code }}">Code</a>]
+      {% endif %}
+    </p>
+
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
 
-        {% if post.collection == 'teaching' %}
-          <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
           <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.date %}
@@ -50,12 +57,7 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
     
-    {% if post.paperurl %}
-      <p>[<a href=" {{ post.paperurl }} "><u>PDF</u></a>]</p>
-    {% endif %}
-    {% if post.code %}
-      <p>[<a href=" {{ post.code }}"><u>Code</u></a>]</p>
-    {% endif %}
+    
 
   </article>
 </div>
