@@ -31,13 +31,13 @@
     </h2> -->
     <p>
       {{ post.authors }},
-      {{ title }},
-      {{ post.collection }} .
+      <i>{{ title }}</i>,
+      {{ post.venue }} .
       {% if post.paperurl %}
-        [<a href=" {{ post.paperurl }} ">PDF</a>]
+        [<a href="{{ post.paperurl }}">PDF</a>]
       {% endif %}
       {% if post.code %}
-        [<a href=" {{ post.code }}">Code</a>]
+        [<a href="{{ post.code }}">Code</a>]
       {% endif %}
     </p>
 
