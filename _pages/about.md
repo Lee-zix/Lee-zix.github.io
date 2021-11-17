@@ -8,11 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student at Institute of Computing Technology, Chinese Academy of Sciences, advised by Prof. Xueqi Cheng.
-My current research interest include: script learning, knowledge graph and natural language processing.
+I am a PhD student at CAS Key Lab of Network Data Science and Technology (directed by Xueqi Cheng and Jiafeng Guo), Institute of Computing Technology, Chinese Academy of Sciences. My advisor is Prof. Xiaolong Jin. 
+My current research interest include: knowledge graph, natural language processing.
 
 Education
 ======
-- B.S. in Computer Science, Zhejiang University, 2016
-- M.S. in Computer Science, Institute of Computing Technology, Chinese Academy of Sciences, 2018
+- B.S. in Computer Science, Shandong University, 2016
 - Ph.D in Computer Science, Institute of Computing Technology, Chinese Academy of Sciences, 2022 (expected)
