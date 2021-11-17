@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Long Bai"
+title                    : "Zixuan Li"
 title_separator          : "-"
-name                     : &name "Long Bai"
+name                     : &name "Zixuan Li"
 description              : &description "PhD student at Institute of Computing Technology, Chinese Academy of Sciences."
 url                      : https://waltbai.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "waltbai/waltbai.github.io"
+repository               : "https://github.com/Lee-zix/Lee-zix.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Long Bai"
+  name             : "Zixuan Li"
   avatar           : "profile.png"
   bio              : "PhD student at ICT, CAS"
   location         : "Beijing, China"
   employer         :
   pubmed           :
-  googlescholar    : "https://scholar.google.com/citations?user=Zrd9pCMAAAAJ"
-  email            : "bailong18b@ict.ac.cn"
+  googlescholar    : "https://scholar.google.com/citations?user=fibOdOkAAAAJ&hl=en&oi=ao"
+  email            : "lizixuan@ict.ac.cn"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "waltbai"
+  github           : "Lee-zix"
   google_plus      :
   keybase          :
   instagram        :
