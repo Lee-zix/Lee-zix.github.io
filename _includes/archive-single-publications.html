@@ -33,9 +33,9 @@
     <!-- <h2 class="archive__item-title" itemprop="headline">
       
     </h2> -->
-    <p>
-      <b>{{ title }}</b>,
+    <li>
       {{ authors }},
+      <i>{{ title }}</i>,
       {{ post.venue }} .
       {% if post.paperurl %}
         [<a href="{{ post.paperurl }}">PDF</a>]
@@ -43,7 +43,7 @@
       {% if post.code %}
         [<a href="{{ post.code }}">Code</a>]
       {% endif %}
-    </p>
+    </li>
 
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
