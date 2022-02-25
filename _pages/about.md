@@ -8,8 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student at CAS Key Lab of Network Data Science and Technology (directed by Xueqi Cheng and Jiafeng Guo), Institute of Computing Technology, Chinese Academy of Sciences. My advisor is Prof. Xiaolong Jin. 
-My current research interest include: knowledge graph, natural language processing.
+I am a PhD student at CAS Key Lab of Network Data Science and Technology (directed by Prof. Xueqi Cheng and Prof. Jiafeng Guo), Institute of Computing Technology, Chinese Academy of Sciences. My advisor is Prof. Xiaolong Jin. 
+My current research interest includes: knowledge graph, natural language processing.
 
 Education
 ======
