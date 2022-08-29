@@ -9,7 +9,7 @@ author_profile: true
 
 {% capture written_year %}'None'{% endcapture %}
 
-<p>{% post %}</p>
+<p>{% site.softwares %}</p>
 
 {% for post in site.softwares reversed %}
   {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
