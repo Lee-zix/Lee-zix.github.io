@@ -34,15 +34,16 @@
       
     </h2> -->
     <li>
-      {{ authors }},
-      <i>{{ title }}</i>,
-      {{ post.venue }} .
-      {% if post.paperurl %}
+      <p>
+        {{ title }}, {{ post.venue }}.
+        {% if post.paperurl %}
         [<a href="{{ post.paperurl }}">PDF</a>]
-      {% endif %}
-      {% if post.code %}
-        [<a href="{{ post.code }}">Code</a>]
-      {% endif %}
+        {% endif %}
+        {% if post.code %}
+          [<a href="{{ post.code }}">Code</a>]
+        {% endif %}
+      </p>
+      {{ authors }}.
     </li>
 
     {% if post.read_time %}
