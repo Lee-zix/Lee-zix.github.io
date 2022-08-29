@@ -15,4 +15,4 @@ Education
 ======
 - B.S. in Computer Science, Zhejiang University, 2016
 - M.S. in Computer Science, Institute of Computing Technology, Chinese Academy of Sciences, 2018
-- Ph.D in Computer Science, Institute of Computing Technology, Chinese Academy of Sciences, 2022 (expected)
+- Ph.D in Computer Science, Institute of Computing Technology, Chinese Academy of Sciences, 2023 (expected)
