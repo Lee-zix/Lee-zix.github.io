@@ -41,9 +41,10 @@
         {% endif %}
         {% if post.code %}
           [<a href="{{ post.code }}">Code</a>]
-        {% endif %}
-      </p>
-      {{ authors }}.
+        {% endif %}<br>
+      
+      <font size="3.5">{{ authors }}.</font>
+    </p>
     </li>
 
     {% if post.read_time %}
