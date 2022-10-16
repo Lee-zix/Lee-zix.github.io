@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 Education
-======
+-----
 * B.S. in Computer Sciences, Zhejiang University, 2016
 * M.S. in Computer Sciences, Institute of Computing Technology, Chinese Academy of Sciences, 2018
 * Ph.D in Computer Sciences, Institute of Computing Technology, Chinese Academy of Sciences, 2023 (expected)
