@@ -24,4 +24,4 @@ Education
 - B.S. in Computer Science, Shandong University, 2016
 - Ph.D in Computer Science, Institute of Computing Technology, Chinese Academy of Sciences, 2022
 
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=100&t=tt&d=4kdshDXocInaxyFBD_jj9xafIQxA9DD0JKyCs9nPUtQ&co=2d78ad&ct=ffffff&cmo=3acc3a&cmn=ff5353'></script>
+<script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=086ea5&w=150&t=tt&d=4kdshDXocInaxyFBD_jj9xafIQxA9DD0JKyCs9nPUtQ&co=ffffff&ct=ffffff&cmo=3acc3a&cmn=ff5353"></script>
