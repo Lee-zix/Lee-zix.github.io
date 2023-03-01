@@ -8,7 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-Hello, I'm Zixuan Li, an assistant professor at CAS Key Lab of Network Data
+
+<font size=5> Hello, I'm Zixuan Li, an assistant professor at CAS Key Lab of Network Data
 Science and Technology (directed by [Prof. Xueqi
 Cheng](http://www.bigdatalab.ac.cn/cxq/) and [Prof. Jiafeng
 Guo](http://www.bigdatalab.ac.cn/gjf/)), Institute of Computing Technology,
@@ -17,11 +18,13 @@ Institute of Computing Technology, Chinese Academy of Sciences, under the
 supervision of [Prof. Xiaolong Jin](http://www.bigdatalab.ac.cn/jxl/). My
 current research interest includes knowledge graph and natural language
 processing. Currently, I mainly focus on knowledge extraction and reasoning,
-especially temporal and spatial knowledge extraction and reasoning.
+especially temporal and spatial knowledge extraction and reasoning.</font>
 
 Education
 ======
+<font size=5>
 - B.S. in Computer Science, Shandong University, 2016
 - Ph.D in Computer Science, Institute of Computing Technology, Chinese Academy of Sciences, 2022
+</font>
 
 <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=086ea5&w=150&t=tt&d=4kdshDXocInaxyFBD_jj9xafIQxA9DD0JKyCs9nPUtQ&co=ffffff&ct=ffffff&cmo=3acc3a&cmn=ff5353"></script>
