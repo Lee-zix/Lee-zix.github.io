@@ -24,6 +24,10 @@ Research Interest
 -----
 - Knowledge Graph
 - Natural Language Processing
+
+Working Experience
+-----
+- Assistant professor at Institute of Computing Technology, Chinese Academy of Sciences, 2023-Now
   
 Education
 -----
