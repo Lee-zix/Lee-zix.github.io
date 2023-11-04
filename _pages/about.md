@@ -34,10 +34,10 @@ Education
 - Ph.D in Computer Science, Institute of Computing Technology, Chinese Academy of Sciences, 2022  
 - B.S. in Computer Science, Shandong University, 2016
 
-Project
+<!-- Project
 -----
 - The National Youth Fund, 2024.01-2027.12 
-- Special Research Assistant Program of the Chinese Academy of Sciences, 2023.01-2025.01
+- Special Research Assistant Program of the Chinese Academy of Sciences, 2023.01-2025.01 -->
 
 <div align=center>
 <a href="https://clustrmaps.com/site/1btbh" title="Visit tracker"><img src="//clustrmaps.com/map_v2.png?cl=086ea5&w=240&t=tt&d=4kdshDXocInaxyFBD_jj9xafIQxA9DD0JKyCs9nPUtQ&co=ffffff&ct=ffffff" /></a>
