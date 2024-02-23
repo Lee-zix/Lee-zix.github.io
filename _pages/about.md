@@ -8,8 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-Hello, I'm Zixuan Li, an assistant professor at CAS Key Lab of Network Data
-Science and Technology (directed by [Prof. Jiafeng
+Hello, I'm Zixuan Li, an assistant professor at Chinese Academy of Sciences Key
+Lab of Network Data Science and Technology (directed by [Prof. Jiafeng
 Guo](http://www.bigdatalab.ac.cn/gjf/)), Institute of Computing Technology,
 Chinese Academy of Sciences. Before that, I obtained my Ph.D. degree in
 Institute of Computing Technology, Chinese Academy of Sciences, under the
@@ -18,8 +18,11 @@ obtained bachelor’s degree from Shandong University in 2016. I am also working
 close with [Prof. Xueqi Cheng](http://www.bigdatalab.ac.cn/cxq/). My current
 research interest includes **Knowledge Graph** and **Large Language Model**.
  Recently, I focuse on enhancing structured knowledge acquisition using Large
- Language Models (LLMs) and improve the factuality and truthfulness of LLM
- outputs by integrating structured knowledge.
+ Language Models and improve the factuality and truthfulness of Large Language
+ Models by integrating structured knowledge.
+
+ Prospective students: I have 1-2 intern position in 2024. Please contact me via
+ the following E-mail.
 
 Contact Information
 -----
@@ -44,6 +47,6 @@ Project
 - The National Youth Fund, 2024.01-2027.12 
 - Special Research Assistant Program of the Chinese Academy of Sciences, 2023.01-2025.01
 
-<body align=center>
+<div align=center>
 <a href="https://clustrmaps.com/site/1bxz0"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=cEYtuSNO7ETCWpoL8tqAyOhZeJdBwYhEsI032im8rAQ&cl=ffffff" /></a>
-</body>
+</div>
