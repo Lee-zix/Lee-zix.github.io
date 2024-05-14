@@ -8,21 +8,21 @@ redirect_from:
   - /about.html
 ---
 
-Hello, I'm Zixuan Li, an assistant professor at Chinese Academy of Sciences Key
-Lab of Network Data Science and Technology (directed by [Prof. Jiafeng
+Hello, I'm Zixuan Li, an assistant professor at the Key Lab of Network Data
+Science and Technology (directed by [Prof. Jiafeng
 Guo](http://www.bigdatalab.ac.cn/gjf/)), Institute of Computing Technology,
-Chinese Academy of Sciences. Before that, I obtained my Ph.D. degree in
+Chinese Academy of Sciences. Before that, I obtained my Ph.D. degree at the
 Institute of Computing Technology, Chinese Academy of Sciences, under the
 supervision of [Prof. Xiaolong Jin](http://www.bigdatalab.ac.cn/jxl/), and
-obtained bachelor’s degree from Shandong University in 2016. I am also working
-close with [Prof. Xueqi Cheng](http://www.bigdatalab.ac.cn/cxq/). My current
-research interest includes **Knowledge Graph** and **Large Language Model**.
- Recently, I focuse on enhancing structured knowledge acquisition using Large
- Language Models and improve the factuality and truthfulness of Large Language
- Models by integrating structured knowledge.
+obtained my bachelor’s degree from Shandong University in 2016. I am also
+working closely with [Prof. Xueqi Cheng](http://www.bigdatalab.ac.cn/cxq/). My
+current research interests include **Knowledge Graph** and **Large Language Model**.
+Recently, I focus on enhancing structured knowledge acquisition using Large
+Language Models and improving the factuality and truthfulness of Large Language
+Models by integrating structured knowledge.
 
- Prospective students: I have 1-2 intern position in 2024. Please contact me via
- the following E-mail.
+Prospective students: I have 1-2 intern positions available in 2024. Please
+contact me via the following email.
 
 Contact Information
 -----
