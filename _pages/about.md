@@ -45,11 +45,15 @@ Education
 Academic Services
 -----
 - Conference Area Chair: 2024 EMNLP Demo track 
-- Conference Program Committee member (Reviews): ACL, AAAI, EMNLP, SIGIR, COLING, The Web Conference, NAACL
+- Conference Program Committee member (Reviews): ACL, AAAI, EMNLP, SIGIR, COLING, The Web Conference, KDD, NAACL, CCIR, CCKS, Big Data Research
 - Reviewer of ACL Rolling Review (ARR):
+
 2021: Nov
+
 2022: Jan, Feb, Apr
+
 2023: Feb, Oct, Dec
+
 2024: Apr, Jun, Aug, Oct
 
 Project
