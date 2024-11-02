@@ -42,6 +42,16 @@ Education
 - Ph.D in Computer Science, Institute of Computing Technology, Chinese Academy of Sciences, 2022  
 - B.S. in Computer Science, Shandong University, 2016
 
+Academic Services
+-----
+- Conference Area Chair: 2024 EMNLP Demo track 
+- Conference Program Committee member (Reviews): ACL, AAAI, EMNLP, SIGIR, COLING, The Web Conference, NAACL
+- Reviewer of ACL Rolling Review (ARR):
+2021: Nov
+2022: Jan, Feb, Apr
+2023: Feb, Oct, Dec
+2024: Apr, Jun, Aug, Oct
+
 Project
 -----
 - The National Youth Fund, 2024.01-2027.12 
