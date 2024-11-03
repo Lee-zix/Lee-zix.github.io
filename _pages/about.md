@@ -54,7 +54,7 @@ Academic Services
 
 Project
 -----
-- The National Youth Fund, 2024.01-2027.12 
+- The National Youth Fund, 2024.01-2026.12 
 - Special Research Assistant Program of the Chinese Academy of Sciences, 2023.01-2025.01
 
 <!-- Academic Services -->
