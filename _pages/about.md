@@ -3,7 +3,7 @@ permalink: /
 title: "About me"
 excerpt: "About me"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
@@ -21,8 +21,7 @@ Recently, I focus on enhancing structured knowledge acquisition using Large
 Language Models and improving the factuality and truthfulness of Large Language
 Models by integrating structured knowledge.
 
-Prospective students: I have 1-2 intern positions available in 2024. Please
-contact me via the following email.
+Prospective students: I have intern positions available in 2025. Please contact me via the following email.
 
 Contact Information
 -----
@@ -36,25 +35,29 @@ Research Interest
 Working Experience
 -----
 - Assistant professor at Institute of Computing Technology, Chinese Academy of Sciences, 2023-Now
-  
+
 Education
 -----
-- Ph.D in Computer Science, Institute of Computing Technology, Chinese Academy of Sciences, 2022  
+- Ph.D in Computer Science, Institute of Computing Technology, Chinese Academy of Sciences, 2022
 - B.S. in Computer Science, Shandong University, 2016
 
 Academic Services
 -----
-- Conference Area Chair: 2024 EMNLP Demo track 
-- Conference Program Committee member (Reviews): ACL, AAAI, EMNLP, SIGIR, COLING, The Web Conference, KDD, NAACL, CCIR, CCKS, Big Data Research
+- Conference Area Chair: 2024 EMNLP Demo track, 2025 ACL Demo track, 2025 EMNLP Demo track, ACL ARR
+- Conference Program Committee member (Reviews): ACL, AAAI, EMNLP, SIGIR
+  COLING, The Web Conference, KDD, NAACL, CCIR, CCKS, Big Data Research
 - Reviewer of ACL Rolling Review (ARR):
 2021: Nov
 2022: Jan, Feb, Apr
 2023: Feb, Oct, Dec
 2024: Apr, Jun, Aug, Oct
+2025: Feb, May, July
+
 
 Project
 -----
-- The National Youth Fund, 2024.01-2026.12 
+- National Key Research and Development Project of China, 2025.05-2028.04
+- The National Youth Fund, 2024.01-2026.12
 - Special Research Assistant Program of the Chinese Academy of Sciences, 2023.01-2025.01
 
 <!-- Academic Services -->
