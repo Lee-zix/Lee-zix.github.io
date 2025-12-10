@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello, I'm Zixuan Li, an assistant professor at the Key Lab of Network Data
+Hello, I'm Zixuan Li, an associate professor at the Key Lab of Network Data
 Science and Technology (directed by [Prof. Jiafeng
 Guo](http://www.bigdatalab.ac.cn/gjf/)), Institute of Computing Technology,
 Chinese Academy of Sciences. Before that, I obtained my Ph.D. degree at the
@@ -34,7 +34,8 @@ Research Interest
 
 Working Experience
 -----
-- Assistant professor at Institute of Computing Technology, Chinese Academy of Sciences, 2023-Now
+- Associate professor at Institute of Computing Technology, Chinese Academy of Sciences, 2025-
+- Assistant professor at Institute of Computing Technology, Chinese Academy of Sciences, 2023-2025
 
 Education
 -----
