@@ -21,7 +21,8 @@ Recently, I focus on enhancing structured knowledge acquisition using Large
 Language Models and improving the factuality and truthfulness of Large Language
 Models by integrating structured knowledge.
 
-Prospective students: I have intern positions available in 2025. Please contact me via the following email.
+Prospective students: I have several intern positions available, as well as one
+Master’s student position for 2026. Please contact me via the following email.
 
 Contact Information
 -----
