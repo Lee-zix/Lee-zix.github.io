@@ -1,7 +1,7 @@
 ---
-title: "Identify-Conceptualize-Align: A Schema-Adaptive Framework for Unified Entity Recognition and Event Detection"
-authors: "Weicheng Ren, **Zixuan Li**, Long Bai, Xiaolong Jin, Jiafeng Guo, Xueqi Cheng"
-venue: "The Nineteenth ACM International Conference on Web Search and Data Mining, WSDM 2026"
-date: 2025-10-15
+title: "KnowCoder-A1: Incentivizing Agentic Reasoning Capability with Outcome Supervision for KBQA"
+authors: "Zhuo Chen, Fei Wang, **Zixuan Li**, Zhao Zhang, Weiwei Ding, Chuanguang Yang, Yongjun Xu, Xiaolong Jin, Jiafeng Guo"
+venue: "Arxiv 2026"
+date: 2025-12-10
 paperurl: ""
 ---
