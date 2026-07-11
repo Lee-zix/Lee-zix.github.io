@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Zixuan Li"
 title_separator          : "-"
 name                     : &name "Zixuan Li"
-description              : &description "Associate professor at the Institute of Computing Technology, Chinese Academy of Sciences. Researching knowledge graphs and large language models."
+description              : &description "PhD student at Institute of Computing Technology, Chinese Academy of Sciences."
 url                      : https://Lee-zix.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Lee-zix/Lee-zix.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Zixuan Li"
   avatar           : "WechatIMG464.jpeg"
-  bio              : "Associate professor at Chinese Academy of Sciences"
+  bio              : "Assistant professor at Chinese Academy of Sciences"
   location         : "Beijing, China"
   employer         :
   pubmed           :
