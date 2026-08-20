@@ -1,0 +1,218 @@
+/* ==========================================================================
+   Personal academic resume styling
+   ========================================================================== */
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 4.5em;
+}
+
+body {
+  color: #494e52;
+}
+
+a {
+  color: #3b8ba5;
+}
+
+a:hover {
+  color: #52adc8;
+}
+
+.masthead {
+  position: sticky;
+  top: 0;
+  background: #fff;
+}
+
+.masthead__inner-wrap {
+  padding-top: 0.65em;
+  padding-bottom: 0.65em;
+}
+
+.masthead__menu-item {
+  font-size: 0.9em;
+}
+
+.masthead__menu-item--lg {
+  padding-right: 1.5em;
+}
+
+#main {
+  margin-top: 1.5em;
+}
+
+.page__content h2.section,
+.page__content h2 {
+  margin-top: 1.8em;
+  margin-bottom: 0.7em;
+  padding-bottom: 0.3em;
+  color: #494e52;
+  font-size: 1.5em;
+  border-bottom: 1px solid #f2f3f3;
+}
+
+.page__content h2.section:first-of-type {
+  margin-top: 1.2em;
+}
+
+.page__content p,
+.page__content li {
+  line-height: 1.62;
+}
+
+.page__content ul {
+  padding-left: 1.2em;
+}
+
+.page__content li {
+  margin-bottom: 0.45em;
+}
+
+.resume-callout {
+  margin: 1.3em 0 1.6em;
+  border-left-color: #52adc8;
+}
+
+.sidebar.sticky {
+  top: 4.4em;
+}
+
+.author__avatar img {
+  width: 175px;
+  height: 175px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.sidebar .author__name {
+  margin-top: 0.7em;
+  margin-bottom: 0.25em;
+  color: #494e52;
+  font-size: 1.22em;
+  font-weight: 700;
+}
+
+.author__bio {
+  color: #646769;
+}
+
+.author__urls {
+  box-shadow: none;
+}
+
+.author__urls li {
+  margin-bottom: 0.45em;
+  color: #646769;
+  white-space: normal;
+}
+
+.author__urls i {
+  color: #646769;
+}
+
+.author__visitors {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  row-gap: 0.2em;
+  margin-top: 1.15em;
+  color: #646769;
+  font-size: 0.75em;
+  line-height: 1.5;
+}
+
+.author__visitor-row {
+  grid-column: 1;
+  width: 100%;
+}
+
+.author__visitors i {
+  color: #646769;
+}
+
+.archive__lead {
+  margin-top: 0;
+  color: #646769;
+}
+
+.archive__subtitle {
+  margin-top: 1.8em;
+  color: #494e52;
+  font-size: 1.25em;
+  border-bottom-color: #f2f3f3;
+}
+
+.publication-list {
+  margin-top: 1em;
+}
+
+.publication-entry {
+  padding: 0.42em 0;
+  border-bottom: 1px dashed #f2f3f3;
+}
+
+.publication-entry .archive__item {
+  margin: 0;
+}
+
+.publication-entry__title {
+  margin: 0 0 0.18em;
+  color: #494e52;
+  font-size: 0.98em;
+  line-height: 1.42;
+  font-weight: 600;
+}
+
+.publication-entry__authors {
+  margin: 0 0 0.18em;
+  color: #646769;
+  font-size: 0.9em;
+  line-height: 1.4;
+}
+
+.publication-entry__meta {
+  margin: 0;
+  color: #646769;
+  font-size: 0.88em;
+  line-height: 1.38;
+}
+
+.publication-entry__venue {
+  display: inline-block;
+  margin-left: 0.45em;
+  padding: 0.12em 0.55em;
+  color: #fff;
+  font-size: 0.76em;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  background: #00369f;
+  border-radius: 4px;
+  white-space: nowrap;
+  vertical-align: 0.1em;
+}
+
+.publication-entry__venue-full {
+  margin-right: 0.45em;
+}
+
+.publication-entry__award {
+  background: #b42318;
+}
+
+.publication-entry__link {
+  display: inline-block;
+  margin-left: 0.2em;
+  font-weight: 600;
+}
+
+@media (max-width: 924px) {
+  .masthead {
+    position: relative;
+  }
+
+  .author__avatar img {
+    width: 110px;
+    height: 110px;
+  }
+}

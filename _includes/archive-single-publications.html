@@ -16,7 +16,51 @@
   {% assign authors = post.authors | markdownify | remove: "<p>" | remove: "</p>" %}
 {% endif %}
 
-<div class="{{ include.type | default: "list" }}__item">
+{% assign venue_label = post.venue_abbr %}
+{% if venue_label == nil or venue_label == "" %}
+  {% assign venue_downcase = post.venue | downcase %}
+  {% if venue_downcase contains "wsdm" %}
+    {% assign venue_label = "WSDM" %}
+  {% elsif venue_downcase contains "emnlp" %}
+    {% assign venue_label = "EMNLP" %}
+  {% elsif venue_downcase contains "acl" %}
+    {% assign venue_label = "ACL" %}
+  {% elsif venue_downcase contains "coling" %}
+    {% assign venue_label = "COLING" %}
+  {% elsif venue_downcase contains "aaai" %}
+    {% assign venue_label = "AAAI" %}
+  {% elsif venue_downcase contains "sigir" %}
+    {% assign venue_label = "SIGIR" %}
+  {% elsif venue_downcase contains "web conf" or venue_downcase contains "the web conference" %}
+    {% assign venue_label = "WWW" %}
+  {% elsif venue_downcase contains "ccir" %}
+    {% assign venue_label = "CCIR" %}
+  {% elsif venue_downcase contains "ksem" %}
+    {% assign venue_label = "KSEM" %}
+  {% elsif venue_downcase contains "nlpcc" %}
+    {% assign venue_label = "NLPCC" %}
+  {% elsif venue_downcase contains "tkde" %}
+    {% assign venue_label = "TKDE" %}
+  {% elsif venue_downcase contains "jcip" or venue_downcase contains "中文信息学报" %}
+    {% assign venue_label = "JCIP" %}
+  {% elsif venue_downcase contains "bigdata" or venue_downcase contains "big data" %}
+    {% assign venue_label = "BigData" %}
+  {% elsif venue_downcase contains "medai" %}
+    {% assign venue_label = "MedAI" %}
+  {% elsif venue_downcase contains "arxiv" %}
+    {% assign venue_label = "arXiv" %}
+  {% elsif venue_downcase contains "kis" %}
+    {% assign venue_label = "KIS" %}
+  {% elsif venue_downcase contains "icdm" %}
+    {% assign venue_label = "ICDM" %}
+  {% elsif venue_downcase contains "tac" %}
+    {% assign venue_label = "TAC-KBP" %}
+  {% else %}
+    {% assign venue_label = post.venue %}
+  {% endif %}
+{% endif %}
+
+<div class="{{ include.type | default: "list" }}__item publication-entry">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
@@ -30,22 +74,27 @@
       </div>
     {% endif %}
 
-    <!-- <h2 class="archive__item-title" itemprop="headline">
-      
-    </h2> -->
-    <li>
-      <p>
-        {{ title }}, {{ post.venue }}.
-        {% if post.paperurl %}
-        [<a href="{{ post.paperurl }}">PDF</a>]
-        {% endif %}
-        {% if post.code %}
-          [<a href="{{ post.code }}">Code</a>]
-        {% endif %}<br>
-      
-      <font size="3.5">{{ authors }}.</font>
+    <h3 class="publication-entry__title" itemprop="headline">
+      {{ title }}
+      {% if venue_label and venue_label != "" %}
+        <span class="publication-entry__venue">{{ venue_label }}</span>
+      {% endif %}
+      {% if post.award and post.award != "" %}
+        <span class="publication-entry__venue publication-entry__award">{{ post.award }}</span>
+      {% endif %}
+    </h3>
+    {% if authors %}
+      <p class="publication-entry__authors">{{ authors }}</p>
+    {% endif %}
+    <p class="publication-entry__meta">
+      {% if post.venue %}<span class="publication-entry__venue-full">{{ post.venue }}</span>{% endif %}
+      {% if post.paperurl and post.paperurl != "" %}
+        <a class="publication-entry__link" href="{{ post.paperurl }}">[Paper]</a>
+      {% endif %}
+      {% if post.code and post.code != "" %}
+        <a class="publication-entry__link" href="{{ post.code }}">[Code]</a>
+      {% endif %}
     </p>
-    </li>
 
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>

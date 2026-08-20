@@ -1,6 +1,5 @@
 ---
 permalink: /
-title: "About me"
 excerpt: "About me"
 author_profile: true
 redirect_from:
@@ -8,65 +7,74 @@ redirect_from:
   - /about.html
 ---
 
-Hello, I'm Zixuan Li, an associate professor at the Key Lab of Network Data
-Science and Technology (directed by [Prof. Jiafeng
-Guo](http://www.bigdatalab.ac.cn/gjf/)), Institute of Computing Technology,
-Chinese Academy of Sciences. Before that, I obtained my Ph.D. degree at the
-Institute of Computing Technology, Chinese Academy of Sciences, under the
-supervision of [Prof. Xiaolong Jin](http://www.bigdatalab.ac.cn/jxl/), and
-obtained my bachelor’s degree from Shandong University in 2016. I am also
-working closely with [Prof. Xueqi Cheng](http://www.bigdatalab.ac.cn/cxq/). My
-current research interests include **Knowledge Graph** and **Large Language Model**.
-Recently, I focus on enhancing structured knowledge acquisition using Large
-Language Models and improving the factuality and truthfulness of Large Language
-Models by integrating structured knowledge.
+<span id="about"></span>
 
-Prospective students: I have several intern positions available, as well as one
-Master’s student position for 2026. Please contact me via the following email.
+Hello, I'm **Zixuan Li**, an associate professor at the Key Lab of Network Data
+Science and Technology (directed by [Prof. Jiafeng Guo](http://www.bigdatalab.ac.cn/gjf/)),
+Institute of Computing Technology, Chinese Academy of Sciences. Now, I am a
+visiting postdoctoral research fellow at the NExT Research
+Center, National University of Singapore (NUS), where I work with
+[Prof. Tat-Seng Chua](https://www.chuatatseng.com/). Before that, I obtained my Ph.D. degree at the Institute of Computing
+Technology, Chinese Academy of Sciences, under the supervision of [Prof. Xiaolong Jin](http://www.bigdatalab.ac.cn/jxl/),
+and obtained my bachelor's degree from Shandong University in 2016. I am also
+working closely with [Prof. Xueqi Cheng](http://www.bigdatalab.ac.cn/cxq/) from
+the Institute of Computing Technology, Chinese Academy of Sciences, and
+[Prof. Bing Li](https://scholar.google.com/citations?user=tddnkNYAAAAJ&hl=en&oi=sra)
+from the Institute of Automation, Chinese Academy of Sciences.
 
-Contact Information
------
-- lizixuan@ict.ac.cn
+My research interests include **Knowledge Graph** and **Large Language
+Model**. Recently, I focus on enhancing structured knowledge acquisition using
+Large Language Models and improving the factuality and truthfulness of Large
+Language Models by integrating structured knowledge.
 
-Research Interest
------
+<div class="notice--info resume-callout">
+  <strong>Prospective students:</strong> I am a Master's supervisor and have one to two
+  Master's student openings this year. I am also recruiting two to three interns.
+  Please contact me via <a href="mailto:lizixuan@ict.ac.cn">lizixuan@ict.ac.cn</a>.
+</div>
+
+## Research Interest
+{: #research .section}
+
 - Knowledge Graph
 - Large Language Model
 
-Working Experience
------
-- Associate professor at Institute of Computing Technology, Chinese Academy of Sciences, 2025-
-- Assistant professor at Institute of Computing Technology, Chinese Academy of Sciences, 2023-2025
+## Working Experience
+{: #experience .section}
 
-Education
------
-- Ph.D in Computer Science, Institute of Computing Technology, Chinese Academy of Sciences, 2022
-- B.S. in Computer Science, Shandong University, 2016
+- **Visiting Postdoctoral Research Fellow**, NExT Research Center, National University of Singapore, 2026-Now
+- **Associate Professor**, Institute of Computing Technology, Chinese Academy of Sciences, 2025-Now
+- **Assistant Professor**, Institute of Computing Technology, Chinese Academy of Sciences, 2023-2025
 
-Academic Services
------
-- Conference Area Chair: 2024 EMNLP Demo track, 2025 ACL Demo track, 2025 EMNLP Demo track, ACL ARR
-- Conference Program Committee member (Reviews): ACL, AAAI, EMNLP, SIGIR
-  COLING, The Web Conference, KDD, NAACL, CCIR, CCKS, Big Data Research
-- Reviewer of ACL Rolling Review (ARR):
-2021: Nov
-2022: Jan, Feb, Apr
-2023: Feb, Oct, Dec
-2024: Apr, Jun, Aug, Oct
-2025: Feb, May, July
+## Education
+{: #education .section}
 
+- **Ph.D. in Computer Science**, Institute of Computing Technology, Chinese Academy of Sciences, 2016-2022
+- **B.S. in Computer Science**, Shandong University, 2012-2016
 
-Project
------
+## Academic Services
+{: #services .section}
+
+- **Conference Area Chair:** 2024 EMNLP Demo track, 2025 ACL Demo track, 2025 EMNLP Demo track, ACL ARR
+- **Conference Program Committee member / Reviewer:** ACL, AAAI, EMNLP, SIGIR, COLING, The Web Conference, KDD, NAACL, CCIR, CCKS, Big Data Research
+- **Reviewer of ACL Rolling Review (ARR):** 2021 Nov; 2022 Jan, Feb, Apr; 2023 Feb, Oct, Dec; 2024 Apr, Jun, Aug, Oct; 2025 Feb, May, July
+
+## Project
+{: #project .section}
+
 - National Key Research and Development Project of China, 2025.05-2028.04
 - The National Youth Fund, 2024.01-2026.12
 - Special Research Assistant Program of the Chinese Academy of Sciences, 2023.01-2025.01
 
-<!-- Academic Services -->
-<!-- ----- -->
-<!-- - Conference Program Committee member (Reviewer): ACL 2023, AAAI 2023, AAAI 2024 -->
-<!-- - Reviewer of ACL Rolling Review (ARR): ARR 2021 Nov, ARR 2022 Jan, ARR 2022 Feb, ARR 2022 Apr, ARR 2023 Feb, ARR 2023 Oct -->
+## Research Projects
+{: #research-projects .section}
 
-<div align=center>
-<a href="https://clustrmaps.com/site/1bxz0"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=cEYtuSNO7ETCWpoL8tqAyOhZeJdBwYhEsI032im8rAQ&cl=ffffff" /></a>
-</div>
+## Honor
+{: #honors .section}
+
+- Paper Digest SIGIR Most Influential Paper
+- OpenKG Outstanding Open Resource Award
+- CCF BigData Best Academic Paper Nomination Award
+- CodaLab International Open Challenge Champion
+
+For the full publication list, please see the [Publications page](/publications/).
