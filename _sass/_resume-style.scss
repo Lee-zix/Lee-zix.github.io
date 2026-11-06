@@ -111,25 +111,6 @@ a:hover {
   color: #646769;
 }
 
-.author__visitors {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr);
-  row-gap: 0.2em;
-  margin-top: 1.15em;
-  color: #646769;
-  font-size: 0.75em;
-  line-height: 1.5;
-}
-
-.author__visitor-row {
-  grid-column: 1;
-  width: 100%;
-}
-
-.author__visitors i {
-  color: #646769;
-}
-
 .archive__lead {
   margin-top: 0;
   color: #646769;

@@ -1,48 +1,4 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
-<script>
-  (function () {
-    if (window.location.hostname.toLowerCase() !== 'lee-zix.github.io') return;
-
-    function compactCount(count) {
-      var divisor = 1;
-      var suffix = '';
-
-      if (count >= 100000) {
-        divisor = 10000;
-        suffix = 'w';
-      } else if (count >= 1000) {
-        divisor = 1000;
-        suffix = 'k';
-      }
-
-      if (!suffix) return String(count);
-
-      var scaled = count / divisor;
-      var rounded = scaled >= 100 ? Math.round(scaled) : Math.round(scaled * 10) / 10;
-      return String(rounded) + suffix;
-    }
-
-    ['site_uv', 'site_pv'].forEach(function (metric) {
-      var value = document.getElementById('busuanzi_value_' + metric);
-      if (!value) return;
-
-      new MutationObserver(function () {
-        var rawValue = value.textContent.replace(/,/g, '').trim();
-        if (!/^\d+$/.test(rawValue)) return;
-
-        var count = Number(rawValue);
-        var formattedValue = compactCount(count);
-        if (value.textContent !== formattedValue) value.textContent = formattedValue;
-        value.title = count.toLocaleString('en-US');
-      }).observe(value, { childList: true, characterData: true, subtree: true });
-    });
-
-    var statisticsScript = document.createElement('script');
-    statisticsScript.async = true;
-    statisticsScript.src = 'https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js';
-    document.head.appendChild(statisticsScript);
-  })();
-</script>
 
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}
