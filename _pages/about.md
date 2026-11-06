@@ -28,9 +28,10 @@ Large Language Models and improving the factuality and truthfulness of Large
 Language Models by integrating structured knowledge.
 
 <div class="notice--info resume-callout">
-  <strong>Prospective students:</strong> I am a Master's supervisor and have one to two
-  Master's student openings this year. I am also recruiting two to three interns.
-  Please contact me via <a href="mailto:lizixuan@ict.ac.cn">lizixuan@ict.ac.cn</a>.
+  <strong>Research opportunities:</strong> I am looking for two to three research interns
+  to work with me. If you are interested, please email
+  <a href="mailto:lizixuan@ict.ac.cn">lizixuan@ict.ac.cn</a>.
+  I am not taking additional Master's students this year.
 </div>
 
 ## Research Interest
