@@ -31,7 +31,7 @@ Language Models by integrating structured knowledge.
   <strong>Research opportunities:</strong> I am looking for two to three research interns
   to work with me. If you are interested, please email
   <a href="mailto:lizixuan@ict.ac.cn">lizixuan@ict.ac.cn</a>.
-  I am not taking additional Master's students this year.
+  I am not accepting additional Master's students for the 2026 intake.
 </div>
 
 ## Research Interest
