@@ -1,7 +1,8 @@
 ---
-title: "Mixture policy based multi-hop reasoning over n-tuple temporal knowledge graphs"
-authors: "Zhongni Hou, Miao Su, Xiaolong Jin, **Zixuan Li**, Long Bai, Jiafeng Guo, Xueqi Cheng"
-venue: "Data Intelligence"
-date: 2025-07-09
-paperurl: "https://arxiv.org/abs/2505.12788"
+title: "Mixture-Policy-Based Multi-Hop Reasoning over N-Tuple Temporal Knowledge Graphs"
+authors: "Zhongni Hou, Miao Su, Jiping An, Xiaolong Jin, Jiyao Wei, **Zixuan Li**, Long Bai, Jiafeng Guo"
+venue: "Data Intelligence, 2026, 8(3), 20262004"
+venue_abbr: "Data Intelligence"
+date: 2026-08-18
+paperurl: "https://doi.org/10.3724/2096-7004.di.2026.2004"
 ---
