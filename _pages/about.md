@@ -56,9 +56,12 @@ Language Models by integrating structured knowledge.
 ## Academic Services
 {: #services .section}
 
-- **Conference Area Chair:** 2024 EMNLP Demo track, 2025 ACL Demo track, 2025 EMNLP Demo track, ACL ARR
-- **Conference Program Committee member / Reviewer:** ACL, AAAI, EMNLP, SIGIR, COLING, The Web Conference, KDD, NAACL, CCIR, CCKS, Big Data Research
-- **Reviewer of ACL Rolling Review (ARR):** 2021 Nov; 2022 Jan, Feb, Apr; 2023 Feb, Oct, Dec; 2024 Apr, Jun, Aug, Oct; 2025 Feb, May, July
+- **Conference Area Chair**
+  - EMNLP Demo track (2024, 2025, 2026)
+  - ACL Demo track (2025, 2026)
+  - ACL ARR
+  - WWW 2027
+- **Conference Program Committee member / Reviewer:** ACL, AAAI, EMNLP, SIGIR, COLING, The Web Conference, KDD, NAACL, ICLR, NIPS, IJCAI, CCIR, CCKS, Big Data Research
 
 ## Project
 {: #project .section}

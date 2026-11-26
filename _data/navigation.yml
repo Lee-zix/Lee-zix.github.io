@@ -6,9 +6,6 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Blog"
-    url: /year-archive/
-
   - title: "Services"
     url: /#services
 
