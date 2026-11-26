@@ -1,0 +1,25 @@
+{% assign selected_projects = site.publications | where_exp: "project", "project.featured != nil" | sort: "date" | reverse %}
+{% if selected_projects.size > 0 %}
+<section id="research-projects" class="selected-research" aria-labelledby="selected-research-heading">
+  <div class="selected-research__header">
+    <h2 id="selected-research-heading">Selected Research Projects</h2>
+    <a href="{{ '/publications/' | relative_url }}">All publications</a>
+  </div>
+  {% for project in selected_projects %}
+  <article class="research-project">
+    <div class="research-project__figure">
+      <img src="{{ project.featured.image | relative_url }}" alt="{{ project.featured.image_alt | escape }}" decoding="async">
+    </div>
+    <div class="research-project__body">
+      <h3>{{ project.featured.title | escape }}</h3>
+      <p>{{ project.featured.summary | escape }}</p>
+    </div>
+    <div class="research-project__links">
+      {% for link in project.featured.links %}
+        <a href="{{ link.url | escape }}">{{ link.label | escape }}</a>
+      {% endfor %}
+    </div>
+  </article>
+  {% endfor %}
+</section>
+{% endif %}

@@ -53,6 +53,8 @@ Language Models by integrating structured knowledge.
 - **Ph.D. in Computer Science**, Institute of Computing Technology, Chinese Academy of Sciences, 2016-2022
 - **B.S. in Computer Science**, Shandong University, 2012-2016
 
+{% include selected-research.html %}
+
 ## Academic Services
 {: #services .section}
 
@@ -70,9 +72,6 @@ Language Models by integrating structured knowledge.
 - The National Youth Fund, 2024.01-2026.12
 - Special Research Assistant Program of the Chinese Academy of Sciences, 2023.01-2025.01
 
-## Research Projects
-{: #research-projects .section}
-
 ## Honor
 {: #honors .section}
 
@@ -80,5 +79,3 @@ Language Models by integrating structured knowledge.
 - OpenKG Outstanding Open Resource Award
 - CCF BigData Best Academic Paper Nomination Award
 - CodaLab International Open Challenge Champion
-
-For the full publication list, please see the [Publications page](/publications/).

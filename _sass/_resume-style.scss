@@ -111,6 +111,131 @@ a:hover {
   color: #646769;
 }
 
+.selected-research {
+  margin-block: 2rem;
+}
+
+@media (min-width: 925px) {
+  .home-page #main,
+  .home-page .masthead__inner-wrap {
+    max-width: 1380px;
+    padding-inline: clamp(1.5rem, 3vw, 3rem);
+  }
+
+  .home-page #main > .page {
+    width: 81%;
+    padding-inline: 0;
+  }
+}
+
+.selected-research__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.35rem 1rem;
+  margin-bottom: 0.85rem;
+}
+
+.page__content .selected-research__header h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: #23282d;
+}
+
+.selected-research__header a {
+  color: #24677a;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.research-project {
+  display: grid;
+  grid-template-columns: minmax(0, 5fr) minmax(0, 6fr);
+  grid-template-areas:
+    "figure body"
+    "links body";
+  grid-template-rows: auto 1fr;
+  align-items: start;
+  gap: 0.65rem 1.1rem;
+  padding: 1rem;
+  border: 1px solid #dce3e6;
+  border-radius: 0.85rem;
+  background: #fff;
+}
+
+.research-project + .research-project {
+  margin-top: 0.85rem;
+}
+
+.research-project__figure {
+  grid-area: figure;
+  padding: 0.6rem;
+  border: 1px solid #dce3e6;
+  border-radius: 0.55rem;
+  background: #f5f9fa;
+}
+
+.research-project__figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.research-project__body {
+  grid-area: body;
+}
+
+.page__content .research-project h3 {
+  margin: 0 0 0.45rem;
+  color: #23282d;
+  font-size: 1.15rem;
+  line-height: 1.35;
+}
+
+.page__content .research-project p {
+  margin: 0 0 0.65rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.page__content .research-project p:last-child {
+  margin-bottom: 0;
+}
+
+.research-project__links {
+  grid-area: links;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.research-project__links a {
+  display: inline-block;
+  padding: 0.4em 0.55em;
+  border: 1px solid #cbd8dd;
+  border-radius: 0.35rem;
+  color: #245d6d;
+  font-size: 0.875rem;
+  text-decoration: none;
+}
+
+.research-project__links a:hover,
+.research-project__links a:focus-visible {
+  background: #e9f3f6;
+  color: #174755;
+  text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+  .research-project {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: "figure" "body" "links";
+    grid-template-rows: auto;
+  }
+}
+
 .archive__lead {
   margin-top: 0;
   color: #646769;
